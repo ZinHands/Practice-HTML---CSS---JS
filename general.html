@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="general.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Juego de vidas</h1>
+        <div class="containerForm">
+            <form>
+                <label for="inputName">Nombre</label>
+                <input type="text" name="name" id="inputName" required>
+                <label for="inputLifes">Vidas ingresadas</label>
+                <input type="number" name="lifes" id="inputLifes" required min="1" max="10">
+                <button type="submit">Agregar</button>
+            </form>
+        </div>
+    </div>
+    <div class="containerGame">
+        <div class="gameInfo"></div>
+        <div class="gameResult"></div>
+    </div>
+    <script src="general.js"></script>
+</body>
+</html>
